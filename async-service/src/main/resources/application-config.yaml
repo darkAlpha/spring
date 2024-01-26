@@ -1,0 +1,5 @@
+
+executor:
+  core-pool-size: 8
+  max-pool-size: 12
+  queue-capacity: 20

@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    include:
+      - "config"
+      - "db"
+      - "log"
+
+server:
+  port: 8082
