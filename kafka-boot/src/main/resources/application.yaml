@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  kafka:
+    bootstrap-servers:
+      - "9092"
+      - "2"
+    retry:
+      topic:
+        attempts: 10
+        delay: 10s
+        enabled: true
